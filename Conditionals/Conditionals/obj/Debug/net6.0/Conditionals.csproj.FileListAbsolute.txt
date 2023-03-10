@@ -1,0 +1,15 @@
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\bin\Debug\net6.0\Conditionals.exe
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\bin\Debug\net6.0\Conditionals.deps.json
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\bin\Debug\net6.0\Conditionals.runtimeconfig.json
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\bin\Debug\net6.0\Conditionals.dll
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\bin\Debug\net6.0\Conditionals.pdb
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.csproj.AssemblyReference.cache
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.AssemblyInfoInputs.cache
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.AssemblyInfo.cs
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.csproj.CoreCompileInputs.cache
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.dll
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\refint\Conditionals.dll
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.pdb
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\Conditionals.genruntimeconfig.cache
+C:\Users\karak\Desktop\GYGY23\Conditionals\Conditionals\obj\Debug\net6.0\ref\Conditionals.dll
