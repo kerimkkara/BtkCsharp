@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karak\\Desktop\\BtkCsharp\\Methods\\Methods\\Methods.csproj",
+      "projectUniqueName": "C:\\Users\\karak\\Desktop\\BtkCsharp\\Methods\\Methods.csproj",
       "projectName": "Methods",
-      "projectPath": "C:\\Users\\karak\\Desktop\\BtkCsharp\\Methods\\Methods\\Methods.csproj",
+      "projectPath": "C:\\Users\\karak\\Desktop\\BtkCsharp\\Methods\\Methods.csproj",
       "packagesPath": "C:\\Users\\karak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karak\\Desktop\\BtkCsharp\\Methods\\Methods\\obj\\",
+      "outputPath": "C:\\Users\\karak\\Desktop\\BtkCsharp\\Methods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
