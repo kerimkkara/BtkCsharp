@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -15,7 +16,6 @@ namespace Constructors
 
             manager.List();
 
-            Console.ReadLine();
 
 
             Product product = new Product {Id = 1, Name = "Laptop"};
@@ -25,6 +25,16 @@ namespace Constructors
             EmployeeManager employeeManager = new EmployeeManager(new DatabaseLogger());
             employeeManager.Add();
 
+            PersonManager personManager = new PersonManager("Product"); 
+            personManager.Add();
+
+            Teacher.Number = 10;
+            Utilities.Validate();
+
+            Manager.DoSomething();
+            Manager manager1 = new Manager();
+            manager1.DoSomething2();
+            Console.ReadLine();
         }
     }
 
@@ -52,6 +62,36 @@ namespace Constructors
         }
       }
 
+    class BaseClass
+    {
+        private string _entity;
+
+        public BaseClass(string entity)
+        {
+            _entity = entity;
+        }
+
+        public void Message()
+        {
+            Console.WriteLine("{0} message",_entity);
+        }
+    }
+
+
+    class PersonManager : BaseClass
+    {
+        public PersonManager(String entity):base(entity)
+        {
+
+            
+        }
+
+        public void Add()
+        {
+            Console.WriteLine("Added");
+            Message();
+        }
+    }
 
 
     class Product
@@ -108,6 +148,37 @@ namespace Constructors
         {
             _logger.Log();
             Console.WriteLine("Added {0}", _logger);
+        }
+    }
+
+    static class Teacher
+    {
+        public static int Number { get; set; }
+    }
+
+    static class Utilities
+    {
+        static Utilities()
+        {
+            
+        }
+        public static void Validate()
+        {
+            Console.WriteLine("Validation is done");
+        }
+    }
+
+
+    class Manager
+    {
+        public static void DoSomething()
+        {
+            Console.WriteLine("Done");
+        }
+
+        public void DoSomething2()
+        {
+            Console.WriteLine("Done2");
         }
     }
 }
